@@ -51,3 +51,11 @@ then
 else
 	echo "Ping failed. Not Connected!"
 fi
+
+echo ""
+echo "Uptime"
+uptime
+
+echo ""
+echo "Disk usage"
+df
