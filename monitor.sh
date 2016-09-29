@@ -54,7 +54,7 @@ fi
 
 echo ""
 echo "Uptime"
-uptime
+uptime | awk '{print $3,$4}' | cut -f1 -d,
 
 echo ""
 echo "Disk usage"
